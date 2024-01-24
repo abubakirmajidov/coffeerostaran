@@ -46,3 +46,31 @@
   width: 445px;
   font-family: var(--main-font-femliy);
 }
+
+/* section */
+
+.section__container {
+  display: flex;
+  align-items: center;
+  gap: 125px;
+  padding-left: 90px;
+  margin-top: 150px;
+}
+
+.section__img img {
+  border-radius: 10px;
+  width: 445px;
+  height: 520px;
+}
+
+.section__tital h2 {
+  margin-bottom: 32px;
+  color: var(--Dark-Grey-Blue);
+  font-family: var(--headar-font-femliy);
+}
+
+.section__tital p {
+  color: var(--Dark-Grey-Blue);
+  font-family: var(--main-font-femliy);
+  width: 540px;
+}
