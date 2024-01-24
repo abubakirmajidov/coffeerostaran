@@ -55,12 +55,13 @@
   margin-bottom: -10px;
 }
 
-.hero__container button {
+.button {
   background-color: var(--Main-Button-Hover);
   font-family: var(--headar-font-femliy);
   color: #fff;
   padding: 15px 31px 16px 31px;
   border-radius: 6px;
+  border: none;
 }
 
 /* section */
@@ -178,4 +179,54 @@
 
 .card2 img {
   margin-top: 20px;
+}
+
+/* section2 */
+
+.section2__container {
+  margin-top: 300px;
+}
+
+.section2__container h4 {
+  color: var(--Grey);
+  font-family: var(--headar-font-femliy);
+  margin-bottom: 80px;
+}
+
+.imeges {
+  display: flex;
+  gap: 349px;
+}
+
+.smell {
+  margin-top: -15px;
+}
+
+.imeg {
+  height: 3px;
+  margin-left: -1125px;
+}
+
+.section2__cards {
+  display: flex;
+  align-items: center;
+  gap: 95px;
+}
+
+.section2__cards h1 {
+  color: var(--Pale-Orange);
+  font-family: var(--headar-font-femliy);
+  margin-bottom: 32px;
+}
+
+.section2__cards h3 {
+  width: 255px;
+  color: var(--Dark-Grey-Blue);
+  margin-bottom: 42px;
+  font-family: var(--headar-font-femliy);
+}
+
+.section2__cards p {
+  color: var(--Dark-Grey-Blue);
+  font-family: var(--main-font-femliy);
 }
