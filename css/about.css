@@ -1,7 +1,9 @@
+/* header */
+
 .header__container {
   display: flex;
   align-items: center;
-  gap: 721px;
+  gap: 751px;
   margin-top: 50px;
 }
 
@@ -20,4 +22,27 @@
   line-height: 15px; /* 125% */
   letter-spacing: 0.923px;
   text-transform: uppercase;
+}
+
+/* hero */
+
+.hero__container {
+  background-image: url(../images/about/desktop/image-hero-whitecup.jpg);
+  background-size: cover;
+  height: 450px;
+  padding: 120px 0 0 85px;
+  border-radius: 15px;
+  margin-top: 70px;
+}
+
+.hero__container h2 {
+  color: #fff;
+  font-family: var(--headar-font-femliy);
+  margin-bottom: 24px;
+}
+
+.hero__container p {
+  color: #fefcf7;
+  width: 445px;
+  font-family: var(--main-font-femliy);
 }
