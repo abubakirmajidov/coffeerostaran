@@ -1,0 +1,23 @@
+.header__container {
+  display: flex;
+  align-items: center;
+  gap: 721px;
+  margin-top: 50px;
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+}
+
+.menu ul a {
+  color: var(--Grey);
+  font-family: var(--main-font-femliy);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px; /* 125% */
+  letter-spacing: 0.923px;
+  text-transform: uppercase;
+}

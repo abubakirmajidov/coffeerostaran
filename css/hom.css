@@ -1,0 +1,108 @@
+/* header */
+
+.header__container {
+  display: flex;
+  align-items: center;
+  gap: 751px;
+  margin-top: 50px;
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+}
+
+.menu ul a {
+  color: var(--Grey);
+  font-family: var(--main-font-femliy);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px; /* 125% */
+  letter-spacing: 0.923px;
+  text-transform: uppercase;
+}
+
+/* main */
+
+.hero__container {
+  background-image: url(../images/home/desktop/image-hero-coffeepress.jpg);
+  background-size: cover;
+  line-height: 250px;
+  border-radius: 10px;
+  padding: 100px 0 0 86px;
+  margin-top: 50px;
+}
+
+.hero__container h1 {
+  color: #fefcf7;
+  font-style: normal;
+  font-weight: 900;
+  font-family: var(--headar-font-femliy);
+  width: 500px;
+}
+
+.hero__container p {
+  color: #fefcf7;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  width: 445px;
+  opacity: 0.8;
+  margin-bottom: -10px;
+}
+
+.hero__container button {
+  background-color: var(--Main-Button-Hover);
+  font-family: var(--headar-font-femliy);
+  color: #fff;
+  padding: 15px 31px 16px 31px;
+  border-radius: 6px;
+}
+
+/* section */
+
+.section__container {
+  margin-top: 160px;
+}
+
+.img001 {
+  width: 1211px;
+  height: 200px;
+  flex-shrink: 0;
+  margin-left: 40px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.card {
+  margin-left: 40px;
+}
+
+.card img {
+  width: 255px;
+  height: 193px;
+  flex-shrink: 0;
+  margin-top: -40px;
+  margin-bottom: 71.55px;
+}
+
+.card h3 {
+  text-align: center;
+  font-family: var(--headar-font-femliy);
+  margin-bottom: 24px;
+}
+
+.card p {
+  text-align: center;
+  font-family: var(--main-font-femliy);
+  color: var(--Dark-Grey-Blue);
+  width: 255px;
+}
